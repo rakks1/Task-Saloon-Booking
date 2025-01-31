@@ -152,7 +152,7 @@ const Home = () => {
 
         <div className='menucontainer'>
           <div className='menu'>
-            {['services', 'gift', ''].map((section) => (
+            {['services', 'gift Vouchers', ''].map((section) => (
               <span
                 key={section}
                 className={showSection === section ? 'activemenu' : ''}
